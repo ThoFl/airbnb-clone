@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: Poppins;
 }
 
 nav {
@@ -16,4 +17,44 @@ nav {
 
 nav > img {
   width: 80px;
+}
+
+section {
+  padding: 50px;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContainer > img {
+  max-width: 80%;
+  height: auto;
+}
+
+.heroContainer > h1 {
+  flex-wrap: wrap-reverse;
+  align-self: flex-start;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  margin-left: 30px;
+  margin-bottom: 1px;
+}
+
+.heroContainer > p {
+  flex-wrap: wrap-reverse;
+  align-self: flex-start;
+  max-width: 320px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  margin-left: 30px;
+  color: #222;
+  line-height: 110%;
 }
